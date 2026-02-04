@@ -4,17 +4,6 @@ A simple end-to-end system that ingests medical documents, answers questions wit
 
 ## Architecture (high level)
 Diagram file: `diagrams/architecture.svg`
-```mermaid
-flowchart LR
-    UI[Web UI] --> API[FastAPI Backend]
-    API --> Ingest[Ingestion + Parsing]
-    Ingest --> Vector[Vector Index (Chroma)]
-    Ingest --> Files[File Store]
-    API --> LLM[LLM + Function Calls]
-    API --> Reports[PDF Report Builder]
-    API --> DB[(SQLite)]
-    Reports --> Files
-```
 
 ## Setup
 **Python version:** Use Python 3.11 (required for dependency compatibility). Download: https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe
