@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+  <style>
+    .box { fill: #fffaf3; stroke: #d6c5b7; stroke-width: 2; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; fill: #1f1a17; }
+    .title { font-size: 16px; font-weight: bold; }
+    .arrow { stroke: #8c6f5a; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#8c6f5a" />
+    </marker>
+  </defs>
+
+  <rect x="40" y="60" width="170" height="80" class="box" />
+  <text x="60" y="95" class="text title">Web UI</text>
+  <text x="60" y="118" class="text">Upload • Chat • Report</text>
+
+  <rect x="260" y="60" width="200" height="80" class="box" />
+  <text x="280" y="95" class="text title">FastAPI Backend</text>
+  <text x="280" y="118" class="text">/upload /chat /report</text>
+
+  <rect x="520" y="30" width="190" height="80" class="box" />
+  <text x="540" y="65" class="text title">Ingestion + Parsing</text>
+  <text x="540" y="88" class="text">PDF/DOCX/XLSX/OCR</text>
+
+  <rect x="520" y="140" width="190" height="80" class="box" />
+  <text x="540" y="175" class="text title">Vector Index</text>
+  <text x="540" y="198" class="text">ChromaDB</text>
+
+  <rect x="740" y="30" width="200" height="80" class="box" />
+  <text x="760" y="65" class="text title">File Store</text>
+  <text x="760" y="88" class="text">Uploads + Reports</text>
+
+  <rect x="520" y="260" width="190" height="80" class="box" />
+  <text x="540" y="295" class="text title">LLM + Tools</text>
+  <text x="540" y="318" class="text">QA + Report Calls</text>
+
+  <rect x="740" y="260" width="200" height="80" class="box" />
+  <text x="760" y="295" class="text title">PDF Builder</text>
+  <text x="760" y="318" class="text">ReportLab</text>
+
+  <rect x="260" y="260" width="200" height="80" class="box" />
+  <text x="280" y="295" class="text title">SQLite</text>
+  <text x="280" y="318" class="text">Chat Memory</text>
+
+  <path d="M210 100 L260 100" class="arrow" />
+  <path d="M460 100 L520 70" class="arrow" />
+  <path d="M460 100 L520 180" class="arrow" />
+  <path d="M710 70 L740 70" class="arrow" />
+  <path d="M460 100 L520 300" class="arrow" />
+  <path d="M710 300 L740 300" class="arrow" />
+  <path d="M460 100 L260 300" class="arrow" />
+  <path d="M920 300 L920 110 L740 110" class="arrow" />
+</svg>

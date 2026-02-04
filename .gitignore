@@ -1,0 +1,6 @@
+.env
+.env.example
+DockerFile
+.venv
+./data/reports
+./data/uploads
